@@ -77,7 +77,7 @@ const alumnos = [{
 for (let i = 0; i < alumnos.length; i++) {
     for (let j = 0; j < alumnos[i].materias.length; j++) {
         if (alumnos[i].materias[j].calif < 60) {
-            console.log(alumnos[i].nombre + " reprobó " + alumnos[i].materias[j].nomMat);
+            console.log(alumnos[i].nombre + " reprobó " + alumnos[i].materias[j].nomMat + " con " + alumnos[i].materias[j].calif);
         }
     }
 }
